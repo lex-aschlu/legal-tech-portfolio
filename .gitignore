@@ -1,0 +1,37 @@
+# --- Secrets & Zugangsdaten (nie committen) ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+secrets/
+
+# --- Private Test- und Mandatsdaten ---
+privat/
+testdaten-privat/
+
+# --- Claude Code: lokale Einstellungen ---
+.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Node ---
+node_modules/
+
+# --- Editoren ---
+.idea/
+.vscode/
+
+# --- Betriebssystem ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Logs ---
+*.log
